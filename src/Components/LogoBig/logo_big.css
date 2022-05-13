@@ -1,0 +1,15 @@
+.logo-big img {
+  width: 136px;
+  height: 161px;
+  margin-bottom: 25px;
+}
+
+.logo-big .title {
+  font-family: "Righteous";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: -0.012em;
+
+  color: white;
+}

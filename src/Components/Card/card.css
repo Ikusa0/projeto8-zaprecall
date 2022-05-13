@@ -1,0 +1,82 @@
+.card {
+  display: flex;
+
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+
+  margin-bottom: 25px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card .icon {
+  min-height: 28px;
+  min-width: 28px;
+}
+
+.card.closed {
+  justify-content: space-between;
+  align-items: center;
+
+  width: 300px;
+  height: 65px;
+  background: #ffffff;
+}
+
+.card.closed .text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.card.question,
+.card.answer {
+  justify-content: space-between;
+  align-items: flex-start;
+
+  width: 300px;
+  min-height: 131px;
+
+  background: #ffffd5;
+}
+
+.card.question .text,
+.card.answer .text {
+  word-break: break-word;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 8px;
+}
+
+.card.question .icon-button {
+  align-self: flex-end;
+}
+
+.card.answer {
+  flex-direction: column;
+}
+
+.answer-button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.answer-button-container .answer-button {
+  width: 100%;
+  height: 38px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 8px;
+
+  font-family: "Recursive";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #ffffff;
+}
+
+.answer-button-container .answer-button:last-child {
+  margin-right: 0px;
+}

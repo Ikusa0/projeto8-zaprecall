@@ -1,0 +1,21 @@
+.logo-small {
+  display: flex;
+  align-items: center;
+}
+
+.logo-small img {
+  width: 52px;
+  height: 60px;
+}
+
+.logo-small .title {
+  font-family: "Righteous";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: -0.012em;
+
+  color: white;
+
+  margin-left: 20px;
+}
