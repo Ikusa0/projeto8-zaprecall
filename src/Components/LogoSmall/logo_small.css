@@ -1,6 +1,7 @@
 .logo-small {
   display: flex;
   align-items: center;
+  margin: 20px 0;
 }
 
 .logo-small img {
